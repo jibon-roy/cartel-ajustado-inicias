@@ -796,8 +796,8 @@ video {
     bottom: 2rem
   }
 
-  .max-sm\:right-\[28\%\] {
-    right: 28%
+  .max-sm\:right-\[27\%\] {
+    right: 27%
   }
 
   .max-sm\:top-11 {
@@ -816,16 +816,12 @@ video {
     top: 13px
   }
 
-  .max-sm\:top-\[3\.5rem\] {
-    top: 3.5rem
-  }
-
-  .max-sm\:right-\[27\%\] {
-    right: 27%
-  }
-
   .max-sm\:top-\[14px\] {
     top: 14px
+  }
+
+  .max-sm\:top-\[3\.5rem\] {
+    top: 3.5rem
   }
 
   .max-sm\:-ml-0 {
@@ -866,6 +862,10 @@ video {
 
   .max-sm\:mt-2 {
     margin-top: 0.5rem
+  }
+
+  .max-sm\:mt-3 {
+    margin-top: 0.75rem
   }
 
   .max-sm\:flex {
@@ -963,10 +963,6 @@ video {
   .max-sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem
-  }
-
-  .max-sm\:text-\[6px\] {
-    font-size: 6px
   }
 
   .max-sm\:leading-\[1\.2rem\] {
@@ -1092,6 +1088,10 @@ video {
     line-height: 1.75rem
   }
 
+  .sm\:text-\[2\.4rem\] {
+    font-size: 2.4rem
+  }
+
   .sm\:leading-3 {
     line-height: .75rem
   }
@@ -1188,6 +1188,10 @@ video {
     padding-top: 1rem
   }
 
+  .md\:pt-8 {
+    padding-top: 2rem
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem
@@ -1213,6 +1217,14 @@ video {
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem
+  }
+
+  .md\:text-\[3\.2rem\] {
+    font-size: 3.2rem
+  }
+
+  .md\:text-\[2\.7rem\] {
+    font-size: 2.7rem
   }
 
   .md\:leading-\[5\.5rem\] {
@@ -1281,6 +1293,10 @@ video {
     padding-top: 3.5rem
   }
 
+  .lg\:pt-12 {
+    padding-top: 3rem
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem
@@ -1315,6 +1331,18 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem
+  }
+
+  .lg\:text-\[3\.7rem\] {
+    font-size: 3.7rem
+  }
+
+  .lg\:text-\[4rem\] {
+    font-size: 4rem
+  }
+
+  .lg\:text-\[3\.8rem\] {
+    font-size: 3.8rem
   }
 
   .lg\:leading-\[6rem\] {
@@ -1363,6 +1391,10 @@ video {
     height: 30rem
   }
 
+  .xl\:w-\[35\%\] {
+    width: 35%
+  }
+
   .xl\:p-0 {
     padding: 0px
   }
@@ -1372,12 +1404,30 @@ video {
     padding-bottom: 4rem
   }
 
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem
+  }
+
   .xl\:pt-20 {
     padding-top: 5rem
   }
 
   .xl\:pt-4 {
     padding-top: 1rem
+  }
+
+  .xl\:pt-16 {
+    padding-top: 4rem
+  }
+
+  .xl\:pl-20 {
+    padding-left: 5rem
   }
 
   .xl\:text-2xl {
@@ -1473,11 +1523,19 @@ video {
     width: 37%
   }
 
+  .\32xl\:pt-20 {
+    padding-top: 5rem
+  }
+
   .\32xl\:text-\[3rem\] {
     font-size: 3rem
   }
 
   .\32xl\:text-\[6rem\] {
     font-size: 6rem
+  }
+
+  .\32xl\:text-\[5\.7rem\] {
+    font-size: 5.7rem
   }
 }
