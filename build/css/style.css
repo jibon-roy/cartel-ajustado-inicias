@@ -698,20 +698,12 @@ video {
   width: 70%
 }
 
-.w-\[90\%\] {
-  width: 90%
-}
-
 .w-full {
   width: 100%
 }
 
 .min-w-full {
   min-width: 100%
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
 .justify-around {
@@ -742,6 +734,10 @@ video {
   font-family: AvenirNextLTPro-HeavyCn, sans-serif
 }
 
+.font-nextregular {
+  font-family: AvenirNextLTPro-Regular, sans-serif
+}
+
 .font-bold {
   font-weight: 700
 }
@@ -754,6 +750,10 @@ video {
   font-weight: 600
 }
 
+.font-normal {
+  font-weight: 400
+}
+
 .text-\[\#00A5CA\] {
   --tw-text-opacity: 1;
   color: rgb(0 165 202 / var(--tw-text-opacity))
@@ -762,19 +762,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
-}
-
-.opacity-20 {
-  opacity: 0.2
-}
-
-.mix-blend-overlay {
-  mix-blend-mode: overlay
-}
-
-.saturate-150 {
-  --tw-saturate: saturate(1.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
 }
 
 @media not all and (min-width: 768px) {
@@ -870,6 +857,10 @@ video {
 
   .max-sm\:mt-3 {
     margin-top: 0.75rem
+  }
+
+  .max-sm\:-ml-8 {
+    margin-left: -2rem
   }
 
   .max-sm\:-ml-6 {
