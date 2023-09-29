@@ -686,6 +686,10 @@ video {
   display: flex
 }
 
+.h-\[20rem\] {
+  height: 20rem
+}
+
 .w-\[14\%\] {
   width: 14%
 }
@@ -716,6 +720,18 @@ video {
 
 .min-w-full {
   min-width: 100%
+}
+
+.flex-col {
+  flex-direction: column
+}
+
+.items-center {
+  align-items: center
+}
+
+.justify-center {
+  justify-content: center
 }
 
 .justify-around {
@@ -752,6 +768,10 @@ video {
   padding-top: 6rem
 }
 
+.pt-4 {
+  padding-top: 1rem
+}
+
 .font-nextbold {
   font-family: AvenirNextLTPro-Bold, sans-serif
 }
@@ -777,6 +797,28 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1
+}
+
+.text-\[2\.6rem\] {
+  font-size: 2.6rem
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+.text-\[1\.3rem\] {
+  font-size: 1.3rem
+}
+
+.text-\[1\.5rem\] {
+  font-size: 1.5rem
 }
 
 .font-bold {
@@ -838,11 +880,127 @@ video {
   .max-md\:ml-0 {
     margin-left: 0px
   }
+
+  .max-md\:leading-tight {
+    line-height: 1.25
+  }
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:-top-24 {
+    top: -6rem
+  }
+
+  .max-sm\:top-24 {
+    top: 6rem
+  }
+
+  .max-sm\:top-28 {
+    top: 7rem
+  }
+
+  .max-sm\:top-32 {
+    top: 8rem
+  }
+
+  .max-sm\:top-36 {
+    top: 9rem
+  }
+
+  .max-sm\:top-\[8\.2rem\] {
+    top: 8.2rem
+  }
+
+  .max-sm\:top-\[8\.5rem\] {
+    top: 8.5rem
+  }
+
+  .max-sm\:-m-6 {
+    margin: -1.5rem
+  }
+
   .max-sm\:ml-0 {
     margin-left: 0px
+  }
+
+  .max-sm\:-mt-6 {
+    margin-top: -1.5rem
+  }
+
+  .max-sm\:mt-20 {
+    margin-top: 5rem
+  }
+
+  .max-sm\:-mt-20 {
+    margin-top: -5rem
+  }
+
+  .max-sm\:-mt-16 {
+    margin-top: -4rem
+  }
+
+  .max-sm\:-mt-28 {
+    margin-top: -7rem
+  }
+
+  .max-sm\:-mt-32 {
+    margin-top: -8rem
+  }
+
+  .max-sm\:-mt-\[8\.1rem\] {
+    margin-top: -8.1rem
+  }
+
+  .max-sm\:-mt-\[8\.2rem\] {
+    margin-top: -8.2rem
+  }
+
+  .max-sm\:-mt-\[8\.3rem\] {
+    margin-top: -8.3rem
+  }
+
+  .max-sm\:-mt-\[8rem\] {
+    margin-top: -8rem
+  }
+
+  .max-sm\:-ml-4 {
+    margin-left: -1rem
+  }
+
+  .max-sm\:-ml-8 {
+    margin-left: -2rem
+  }
+
+  .max-sm\:-ml-10 {
+    margin-left: -2.5rem
+  }
+
+  .max-sm\:-ml-6 {
+    margin-left: -1.5rem
+  }
+
+  .max-sm\:-ml-2 {
+    margin-left: -0.5rem
+  }
+
+  .max-sm\:flex {
+    display: flex
+  }
+
+  .max-sm\:h-\[10rem\] {
+    height: 10rem
+  }
+
+  .max-sm\:h-\[20rem\] {
+    height: 20rem
+  }
+
+  .max-sm\:flex-col {
+    flex-direction: column
+  }
+
+  .max-sm\:justify-center {
+    justify-content: center
   }
 
   .max-sm\:px-10 {
@@ -850,8 +1008,85 @@ video {
     padding-right: 2.5rem
   }
 
+  .max-sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+  }
+
+  .max-sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem
+  }
+
+  .max-sm\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem
+  }
+
   .max-sm\:pt-16 {
     padding-top: 4rem
+  }
+
+  .max-sm\:pt-4 {
+    padding-top: 1rem
+  }
+
+  .max-sm\:pt-6 {
+    padding-top: 1.5rem
+  }
+
+  .max-sm\:pt-12 {
+    padding-top: 3rem
+  }
+
+  .max-sm\:pb-10 {
+    padding-bottom: 2.5rem
+  }
+
+  .max-sm\:pt-5 {
+    padding-top: 1.25rem
+  }
+
+  .max-sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+  }
+
+  .max-sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
+  }
+
+  .max-sm\:text-\[4rem\] {
+    font-size: 4rem
+  }
+
+  .max-sm\:text-\[4\.5rem\] {
+    font-size: 4.5rem
+  }
+
+  .max-sm\:text-\[3rem\] {
+    font-size: 3rem
+  }
+
+  .max-sm\:text-\[3\.5rem\] {
+    font-size: 3.5rem
+  }
+
+  .max-sm\:text-\[5rem\] {
+    font-size: 5rem
+  }
+
+  .max-sm\:leading-\[5rem\] {
+    line-height: 5rem
+  }
+
+  .max-sm\:leading-\[4\.5rem\] {
+    line-height: 4.5rem
+  }
+
+  .max-sm\:leading-\[4rem\] {
+    line-height: 4rem
   }
 }
 
@@ -998,8 +1233,20 @@ video {
     margin-left: 0.75rem
   }
 
+  .sm\:h-\[18rem\] {
+    height: 18rem
+  }
+
+  .sm\:h-\[10rem\] {
+    height: 10rem
+  }
+
   .sm\:w-\[32\%\] {
     width: 32%
+  }
+
+  .sm\:w-\[57\.36\%\] {
+    width: 57.36%
   }
 
   .sm\:px-10 {
@@ -1086,6 +1333,18 @@ video {
     padding-top: 0px
   }
 
+  .sm\:pb-8 {
+    padding-bottom: 2rem
+  }
+
+  .sm\:pb-0 {
+    padding-bottom: 0px
+  }
+
+  .sm\:pb-5 {
+    padding-bottom: 1.25rem
+  }
+
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem
@@ -1115,6 +1374,11 @@ video {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem
   }
 
   .sm\:leading-tight {
@@ -1205,6 +1469,14 @@ video {
     top: -9rem
   }
 
+  .md\:-bottom-2 {
+    bottom: -0.5rem
+  }
+
+  .md\:-bottom-0 {
+    bottom: -0px
+  }
+
   .md\:mr-24 {
     margin-right: 6rem
   }
@@ -1231,6 +1503,54 @@ video {
 
   .md\:-ml-8 {
     margin-left: -2rem
+  }
+
+  .md\:ml-10 {
+    margin-left: 2.5rem
+  }
+
+  .md\:ml-6 {
+    margin-left: 1.5rem
+  }
+
+  .md\:ml-2 {
+    margin-left: 0.5rem
+  }
+
+  .md\:ml-0 {
+    margin-left: 0px
+  }
+
+  .md\:-ml-2 {
+    margin-left: -0.5rem
+  }
+
+  .md\:-mt-32 {
+    margin-top: -8rem
+  }
+
+  .md\:-mt-\[7\.5rem\] {
+    margin-top: -7.5rem
+  }
+
+  .md\:-mt-\[8\.5rem\] {
+    margin-top: -8.5rem
+  }
+
+  .md\:-mt-\[8\.2rem\] {
+    margin-top: -8.2rem
+  }
+
+  .md\:-mt-\[8\.3rem\] {
+    margin-top: -8.3rem
+  }
+
+  .md\:h-\[20rem\] {
+    height: 20rem
+  }
+
+  .md\:h-\[18rem\] {
+    height: 18rem
   }
 
   .md\:px-12 {
@@ -1304,6 +1624,10 @@ video {
 
   .md\:leading-none {
     line-height: 1
+  }
+
+  .md\:leading-snug {
+    line-height: 1.375
   }
 }
 
@@ -1388,6 +1712,10 @@ video {
     line-height: 1.75rem
   }
 
+  .lg\:text-\[3\.5rem\] {
+    font-size: 3.5rem
+  }
+
   .lg\:leading-\[6rem\] {
     line-height: 6rem
   }
@@ -1424,6 +1752,10 @@ video {
 
   .xl\:top-56 {
     top: 14rem
+  }
+
+  .xl\:top-60 {
+    top: 15rem
   }
 
   .xl\:-mt-56 {
@@ -1528,11 +1860,19 @@ video {
     height: 40rem
   }
 
+  .\32xl\:w-\[37\%\] {
+    width: 37%
+  }
+
   .\32xl\:text-\[3rem\] {
     font-size: 3rem
   }
 
   .\32xl\:text-\[6\.5rem\] {
     font-size: 6.5rem
+  }
+
+  .\32xl\:text-\[6rem\] {
+    font-size: 6rem
   }
 }
