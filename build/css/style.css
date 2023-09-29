@@ -656,6 +656,10 @@ video {
   z-index: 20
 }
 
+.m-0 {
+  margin: 0px
+}
+
 .mx-\[10\%\] {
   margin-left: 10%;
   margin-right: 10%
@@ -680,6 +684,10 @@ video {
 
 .mr-24 {
   margin-right: 6rem
+}
+
+.ml-5 {
+  margin-left: 1.25rem
 }
 
 .flex {
@@ -718,8 +726,20 @@ video {
   width: 100%
 }
 
+.w-\[50\%\] {
+  width: 50%
+}
+
+.w-\[60\%\] {
+  width: 60%
+}
+
 .min-w-full {
   min-width: 100%
+}
+
+.flex-1 {
+  flex: 1 1 0%
 }
 
 .flex-col {
@@ -740,6 +760,10 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem
+}
+
+.p-0 {
+  padding: 0px
 }
 
 .px-12 {
@@ -1328,6 +1352,14 @@ video {
     margin-top: -5.7rem
   }
 
+  .max-sm\:mr-5 {
+    margin-right: 1.25rem
+  }
+
+  .max-sm\:mr-7 {
+    margin-right: 1.75rem
+  }
+
   .max-sm\:flex {
     display: flex
   }
@@ -1368,12 +1400,32 @@ video {
     width: 340px
   }
 
+  .max-sm\:w-full {
+    width: 100%
+  }
+
+  .max-sm\:w-\[90\%\] {
+    width: 90%
+  }
+
+  .max-sm\:w-\[50\%\] {
+    width: 50%
+  }
+
   .max-sm\:flex-col {
     flex-direction: column
   }
 
   .max-sm\:justify-center {
     justify-content: center
+  }
+
+  .max-sm\:justify-around {
+    justify-content: space-around
+  }
+
+  .max-sm\:justify-evenly {
+    justify-content: space-evenly
   }
 
   .max-sm\:rounded-lg {
@@ -1468,6 +1520,10 @@ video {
 
   .max-sm\:pb-12 {
     padding-bottom: 3rem
+  }
+
+  .max-sm\:pl-10 {
+    padding-left: 2.5rem
   }
 
   .max-sm\:text-xl {
@@ -1574,6 +1630,14 @@ video {
 
   .max-sm\:text-\[2\.3rem\] {
     font-size: 2.3rem
+  }
+
+  .max-sm\:text-\[1\.3rem\] {
+    font-size: 1.3rem
+  }
+
+  .max-sm\:text-\[1\.4rem\] {
+    font-size: 1.4rem
   }
 
   .max-sm\:leading-\[5rem\] {
