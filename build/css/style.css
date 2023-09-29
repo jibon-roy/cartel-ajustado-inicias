@@ -1127,6 +1127,28 @@ video {
   }
 }
 
+@media (max-width: 340px) {
+  .max-\[340px\]\:-top-16 {
+    top: -4rem
+  }
+}
+
+@media (max-width: 320px) {
+  .max-\[320px\]\:top-16 {
+    top: 4rem
+  }
+
+  .max-\[320px\]\:-top-16 {
+    top: -4rem
+  }
+}
+
+@media (max-width: 315px) {
+  .max-\[315px\]\:-top-16 {
+    top: -4rem
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:-top-32 {
     top: -8rem
