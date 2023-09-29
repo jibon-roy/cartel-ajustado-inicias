@@ -1060,6 +1060,14 @@ video {
     top: 8px
   }
 
+  .max-sm\:top-3 {
+    top: 0.75rem
+  }
+
+  .max-sm\:top-11 {
+    top: 2.75rem
+  }
+
   .max-sm\:-m-6 {
     margin: -1.5rem
   }
@@ -1296,6 +1304,14 @@ video {
     margin-top: -3.5rem
   }
 
+  .max-sm\:-mt-\[3\.8rem\] {
+    margin-top: -3.8rem
+  }
+
+  .max-sm\:-mt-\[5\.7rem\] {
+    margin-top: -5.7rem
+  }
+
   .max-sm\:flex {
     display: flex
   }
@@ -1330,6 +1346,10 @@ video {
 
   .max-sm\:w-\[320px\] {
     width: 320px
+  }
+
+  .max-sm\:w-\[340px\] {
+    width: 340px
   }
 
   .max-sm\:flex-col {
@@ -1524,6 +1544,22 @@ video {
     font-size: 9px
   }
 
+  .max-sm\:text-\[6px\] {
+    font-size: 6px
+  }
+
+  .max-sm\:text-\[5px\] {
+    font-size: 5px
+  }
+
+  .max-sm\:text-\[2\.2rem\] {
+    font-size: 2.2rem
+  }
+
+  .max-sm\:text-\[2\.3rem\] {
+    font-size: 2.3rem
+  }
+
   .max-sm\:leading-\[5rem\] {
     line-height: 5rem
   }
@@ -1554,6 +1590,22 @@ video {
 
   .max-sm\:leading-\[2\.5rem\] {
     line-height: 2.5rem
+  }
+
+  .max-sm\:leading-\[1\.7rem\] {
+    line-height: 1.7rem
+  }
+
+  .max-sm\:leading-\[1\.5rem\] {
+    line-height: 1.5rem
+  }
+
+  .max-sm\:leading-\[1rem\] {
+    line-height: 1rem
+  }
+
+  .max-sm\:leading-\[1\.2rem\] {
+    line-height: 1.2rem
   }
 }
 
