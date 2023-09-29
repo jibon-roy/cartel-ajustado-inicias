@@ -898,6 +898,14 @@ video {
     margin-left: 0.75rem
   }
 
+  .max-md\:mt-2 {
+    margin-top: 0.5rem
+  }
+
+  .max-md\:mt-1 {
+    margin-top: 0.25rem
+  }
+
   .max-md\:leading-tight {
     line-height: 1.25
   }
@@ -1066,6 +1074,14 @@ video {
 
   .max-sm\:top-11 {
     top: 2.75rem
+  }
+
+  .max-sm\:top-\[12px\] {
+    top: 12px
+  }
+
+  .max-sm\:top-\[13px\] {
+    top: 13px
   }
 
   .max-sm\:-m-6 {
