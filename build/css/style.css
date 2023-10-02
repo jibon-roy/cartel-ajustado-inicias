@@ -1482,6 +1482,10 @@ video {
     font-size: 6px
   }
 
+  .max-sm\:text-\[73\%\] {
+    font-size: 73%
+  }
+
   .max-sm\:leading-\[1\.2rem\] {
     line-height: 1.2rem
   }
