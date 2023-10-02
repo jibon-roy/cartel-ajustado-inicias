@@ -636,6 +636,10 @@ video {
   right: 23%
 }
 
+.bottom-\[26\%\] {
+  bottom: 26%
+}
+
 .-z-10 {
   z-index: -10
 }
@@ -708,6 +712,14 @@ video {
 
 .w-\[80\%\] {
   width: 80%
+}
+
+.w-\[90\%\] {
+  width: 90%
+}
+
+.w-\[87\%\] {
+  width: 87%
 }
 
 .min-w-full {
@@ -921,6 +933,75 @@ video {
 
   .max-sm\:top-\[40\%\] {
     top: 40%
+  }
+
+  .max-sm\:bottom-\[26\%\] {
+    bottom: 26%
+  }
+
+  .max-sm\:bottom-\[30\%\] {
+    bottom: 30%
+  }
+
+  .max-sm\:right-\[22\%\] {
+    right: 22%
+  }
+
+  .max-sm\:right-\[24\%\] {
+    right: 24%
+  }
+
+  .max-sm\:right-\[7\%\] {
+    right: 7%
+  }
+
+  .max-sm\:right-\[6\%\] {
+    right: 6%
+  }
+
+  .max-sm\:bottom-\[35\%\] {
+    bottom: 35%
+  }
+
+  .max-sm\:bottom-\[33\%\] {
+    bottom: 33%
+  }
+
+  .max-sm\:right-\[15\%\] {
+    right: 15%
+  }
+
+  .max-sm\:right-\[20\%\] {
+    right: 20%
+  }
+
+  .max-sm\:right-\[2\%\] {
+    right: 2%
+  }
+
+  .max-sm\:right-\[18\%\] {
+    right: 18%
+  }
+
+  .max-sm\:right-\[19\%\] {
+    right: 19%
+  }
+
+  .max-sm\:bottom-\[8\%\] {
+    bottom: 8%
+  }
+
+  .max-sm\:bottom-\[0\%\] {
+    bottom: 0%
+  }
+
+  .max-sm\:bottom-\[10\%\] {
+    bottom: 10%
+  }
+
+  .max-sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto
   }
 
   .max-sm\:-ml-0 {
@@ -1441,6 +1522,18 @@ video {
 
   .sm\:top-6 {
     top: 1.5rem
+  }
+
+  .sm\:bottom-\[24\%\] {
+    bottom: 24%
+  }
+
+  .sm\:right-\[10\%\] {
+    right: 10%
+  }
+
+  .sm\:right-\[23\%\] {
+    right: 23%
   }
 
   .sm\:mx-\[10\%\] {
