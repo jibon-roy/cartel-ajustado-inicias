@@ -999,6 +999,10 @@ video {
     bottom: 10%
   }
 
+  .max-sm\:right-\[21\%\] {
+    right: 21%
+  }
+
   .max-sm\:mx-auto {
     margin-left: auto;
     margin-right: auto
