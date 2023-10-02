@@ -911,6 +911,18 @@ video {
     left: 32%
   }
 
+  .max-sm\:top-\[15\%\] {
+    top: 15%
+  }
+
+  .max-sm\:top-\[30\%\] {
+    top: 30%
+  }
+
+  .max-sm\:top-\[40\%\] {
+    top: 40%
+  }
+
   .max-sm\:-ml-0 {
     margin-left: -0px
   }
@@ -1005,6 +1017,22 @@ video {
 
   .max-sm\:mt-\[9\%\] {
     margin-top: 9%
+  }
+
+  .max-sm\:ml-2 {
+    margin-left: 0.5rem
+  }
+
+  .max-sm\:-mt-\[21\%\] {
+    margin-top: -21%
+  }
+
+  .max-sm\:-mt-\[23\%\] {
+    margin-top: -23%
+  }
+
+  .max-sm\:inline {
+    display: inline
   }
 
   .max-sm\:flex {
@@ -1141,6 +1169,18 @@ video {
 
   .max-sm\:w-\[150\%\] {
     width: 150%
+  }
+
+  .max-sm\:w-40 {
+    width: 10rem
+  }
+
+  .max-sm\:w-\[50\%\] {
+    width: 50%
+  }
+
+  .max-sm\:w-60 {
+    width: 15rem
   }
 
   .max-sm\:max-w-\[380px\] {
@@ -1325,6 +1365,42 @@ video {
     font-size: 7px
   }
 
+  .max-sm\:text-\[30\%\] {
+    font-size: 30%
+  }
+
+  .max-sm\:text-\[20\%\] {
+    font-size: 20%
+  }
+
+  .max-sm\:text-\[100\%\] {
+    font-size: 100%
+  }
+
+  .max-sm\:text-\[80\%\] {
+    font-size: 80%
+  }
+
+  .max-sm\:text-\[70\%\] {
+    font-size: 70%
+  }
+
+  .max-sm\:text-\[60\%\] {
+    font-size: 60%
+  }
+
+  .max-sm\:text-\[50\%\] {
+    font-size: 50%
+  }
+
+  .max-sm\:text-\[55\%\] {
+    font-size: 55%
+  }
+
+  .max-sm\:text-\[6px\] {
+    font-size: 6px
+  }
+
   .max-sm\:leading-\[1\.2rem\] {
     line-height: 1.2rem
   }
@@ -1367,6 +1443,11 @@ video {
     top: 1.5rem
   }
 
+  .sm\:mx-\[10\%\] {
+    margin-left: 10%;
+    margin-right: 10%
+  }
+
   .sm\:-mt-28 {
     margin-top: -7rem
   }
@@ -1383,12 +1464,44 @@ video {
     margin-top: -0px
   }
 
+  .sm\:ml-\[10\%\] {
+    margin-left: 10%
+  }
+
+  .sm\:ml-\[5\%\] {
+    margin-left: 5%
+  }
+
+  .sm\:ml-\[4\%\] {
+    margin-left: 4%
+  }
+
+  .sm\:ml-\[3\%\] {
+    margin-left: 3%
+  }
+
+  .sm\:ml-\[6\%\] {
+    margin-left: 6%
+  }
+
+  .sm\:ml-\[7\%\] {
+    margin-left: 7%
+  }
+
+  .sm\:flex {
+    display: flex
+  }
+
   .sm\:h-\[10rem\] {
     height: 10rem
   }
 
   .sm\:w-\[32\%\] {
     width: 32%
+  }
+
+  .sm\:w-\[70\%\] {
+    width: 70%
   }
 
   .sm\:rounded-md {
@@ -1582,6 +1695,11 @@ video {
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
   }
 
   .md\:leading-\[5\.5rem\] {
