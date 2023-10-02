@@ -827,6 +827,10 @@ video {
     bottom: 0px
   }
 
+  .max-sm\:bottom-\[5\%\] {
+    bottom: 5%
+  }
+
   .max-sm\:-ml-0 {
     margin-left: -0px
   }
@@ -919,6 +923,10 @@ video {
     margin-top: -13%
   }
 
+  .max-sm\:mt-\[9\%\] {
+    margin-top: 9%
+  }
+
   .max-sm\:flex {
     display: flex
   }
@@ -957,6 +965,10 @@ video {
 
   .max-sm\:h-\[500px\] {
     height: 500px
+  }
+
+  .max-sm\:h-\[40\%\] {
+    height: 40%
   }
 
   .max-sm\:max-h-\[568px\] {
@@ -1111,6 +1123,18 @@ video {
 
   .max-sm\:text-\[1\.3em\] {
     font-size: 1.3em
+  }
+
+  .max-sm\:text-\[120\%\] {
+    font-size: 120%
+  }
+
+  .max-sm\:text-\[130\%\] {
+    font-size: 130%
+  }
+
+  .max-sm\:text-\[140\%\] {
+    font-size: 140%
   }
 
   .max-sm\:leading-\[1\.2rem\] {
